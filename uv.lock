@@ -398,6 +398,7 @@ source = { editable = "." }
 dependencies = [
     { name = "jupyter" },
     { name = "matplotlib" },
+    { name = "numpy" },
     { name = "pandas" },
     { name = "scipy" },
     { name = "seaborn" },
@@ -407,6 +408,7 @@ dependencies = [
 requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "matplotlib", specifier = ">=3.11.2" },
+    { name = "numpy", specifier = ">=2.5.3" },
     { name = "pandas", specifier = ">=3.0.6" },
     { name = "scipy", specifier = ">=1.18.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
